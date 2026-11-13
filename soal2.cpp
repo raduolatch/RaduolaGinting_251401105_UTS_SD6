@@ -65,12 +65,11 @@ int main() {
     int pilihan;
 
     do {
-        cout << "\n=== DATA KEHADIRAN MAHASISWA ===" << endl;
-        cout << "1. Tambah data di akhir (Insert Tail)" << endl;
-        cout << "2. Hapus data paling depan (Delete Head)" << endl;
-        cout << "3. Hapus data paling belakang (Delete Tail)" << endl;
-        cout << "4. Tampilkan (kehadiran < 80%)" << endl;
-        cout << "0. Keluar" << endl;
+        cout << "\npilih menu 1-4" << endl;
+        cout << "1. Insert Tail" << endl;
+        cout << "2. Delete Head" << endl;
+        cout << "3. Delete Tail" << endl;
+        cout << "4. Tampilkan Mahasiswa Tidak Layak ujian" << endl;
         cout << "Pilihan: ";
         cin >> pilihan;
 
@@ -94,8 +93,6 @@ int main() {
                 break;
             case 4:
                 tampilkan();
-                break;
-            case 0:
                 break;
             default:
                 break;
